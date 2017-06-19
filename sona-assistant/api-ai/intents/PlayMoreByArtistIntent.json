@@ -1,0 +1,117 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "play more by this artist in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more songs by this artist in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more tracks by this artist in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more music by this artist in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more by this artist"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more songs by this artist"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more tracks by this artist"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more music by this artist"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "PlayMoreByArtistIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "PlayMoreByArtistIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,177 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "pause in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "pause in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "pause the music in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop playing in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop playing in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop the music in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "pause"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "pause"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "pause the music"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "stop the music"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "PauseIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "PauseIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

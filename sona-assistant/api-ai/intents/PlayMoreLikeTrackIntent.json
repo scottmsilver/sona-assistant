@@ -1,0 +1,117 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "play more like this in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more songs like this in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more tracks like this in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more music like this in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more like this"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more songs like this"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more tracks like this"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play more music like this"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "PlayMoreLikeTrackIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "PlayMoreLikeTrackIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

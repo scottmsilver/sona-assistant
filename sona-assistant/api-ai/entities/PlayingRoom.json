@@ -1,0 +1,14 @@
+{
+  "name": "PlayingRoom",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "PlayingRoom",
+      "synonyms": [
+         "PlayingRoom"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

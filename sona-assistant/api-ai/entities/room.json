@@ -1,0 +1,14 @@
+{
+  "name": "Room",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Room",
+      "synonyms": [
+         "Room"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

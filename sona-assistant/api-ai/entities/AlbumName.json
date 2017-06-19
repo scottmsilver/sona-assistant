@@ -1,0 +1,14 @@
+{
+  "name": "AlbumName",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "AlbumName",
+      "synonyms": [
+         "AlbumName"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

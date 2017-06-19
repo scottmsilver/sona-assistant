@@ -1,0 +1,217 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "continue the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue the music in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue the music in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue playing the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue playing in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue playing the music in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue playing the music in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "resume the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "resume in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "resume the music in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "resume the music in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue the music"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue playing"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "continue playing"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "resume"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "resume the music"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "ResumeIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "ResumeIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

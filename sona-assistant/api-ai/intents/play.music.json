@@ -1,0 +1,209 @@
+{
+  "userSays": [
+    {
+      "id": "4c5c9a44-047a-48e4-b210-2642922b8af5",
+      "data": [
+        {
+          "text": "play"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7fea687f-32dc-40e6-855e-96d3027b6db6",
+      "data": [
+        {
+          "text": "play rush in "
+        },
+        {
+          "text": "joy\u0027s office",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8dff31e2-64cd-47c2-ad3a-48a77b9d4ee1",
+      "data": [
+        {
+          "text": "Play "
+        },
+        {
+          "text": "nothing compares 2 u",
+          "alias": "music",
+          "meta": "@music",
+          "userDefined": true
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "sinead oconnor",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "playroom",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f18064a-a945-44b6-985d-8f410e1ed676",
+      "data": [
+        {
+          "text": "Play "
+        },
+        {
+          "text": "girls just wanna have fun",
+          "alias": "music",
+          "meta": "@music",
+          "userDefined": true
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "kitchen",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46772c5f-e52b-49af-a8ca-55a9f1f4b582",
+      "data": [
+        {
+          "text": "play "
+        },
+        {
+          "text": "free fallin\u0027",
+          "alias": "music",
+          "meta": "@music",
+          "userDefined": true
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "bedroom",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b7534fc-4796-4334-8430-0ece35e94b05",
+      "data": [
+        {
+          "text": "Play "
+        },
+        {
+          "text": "tom petty",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "bedroom",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a58f6419-9417-48af-bc29-dc9d618a3876",
+      "data": [
+        {
+          "text": "Play in the "
+        },
+        {
+          "text": "bedroom",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "49b68121-424b-4d28-9742-204d453cad30",
+  "name": "play.music",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "play.music",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.music-artist",
+          "name": "music-artist",
+          "value": "$music-artist",
+          "isList": false
+        },
+        {
+          "dataType": "@music",
+          "name": "music",
+          "value": "$music",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

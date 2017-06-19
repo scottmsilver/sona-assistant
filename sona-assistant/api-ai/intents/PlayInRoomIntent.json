@@ -1,0 +1,97 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "play in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "play in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "to play in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "to play in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "also play in @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "also play in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "PlayInRoomIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "PlayInRoomIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

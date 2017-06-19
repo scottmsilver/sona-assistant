@@ -1,0 +1,14 @@
+{
+  "name": "LineIn",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "LineIn",
+      "synonyms": [
+         "LineIn"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

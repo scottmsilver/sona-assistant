@@ -1,0 +1,431 @@
+{
+    "intents": [
+
+    {
+      "intent": "AlbumIntent",
+      "slots": [
+        {
+            "name": "AlbumName",
+            "type": "AMAZON.MusicAlbum"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+
+    {
+      "intent": "TrackIntent",
+      "slots": [
+        {
+            "name": "TrackName",
+            "type": "AMAZON.MusicRecording"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+
+    {
+      "intent": "ArtistIntent",
+      "slots": [
+        {
+            "name": "ArtistName",
+            "type": "AMAZON.MusicGroup"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+
+    {
+      "intent": "MusicRadioIntent",
+      "slots": [
+        {
+            "name": "ArtistName",
+            "type": "AMAZON.MusicGroup"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+
+    {
+      "intent": "PlayMoreByArtistIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+  
+    {
+      "intent": "PlayMoreLikeTrackIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+      
+    {  
+      "intent": "SiriusXMStationIntent",
+      "slots": [
+        {
+            "name": "Station",
+            "type": "SXMSTATIONS"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+      
+    {  
+      "intent": "SiriusXMChannelIntent",
+      "slots": [
+        {
+            "name": "Channel",
+            "type": "SXMCHANNELS"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+      
+    {
+      "intent": "PandoraMusicIntent",
+      "slots": [
+        {
+            "name": "Name",
+            "type": "NAMES"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+   
+    {
+      "intent": "PandoraThumbsUpIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+    
+    {
+      "intent": "PandoraThumbsDownIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+      
+    {
+      "intent": "PlayPresetIntent",
+      "slots": [
+        {
+            "name": "Preset",
+            "type": "PRESETS"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+  
+    {
+      "intent": "PlaylistIntent",
+      "slots": [
+        {
+            "name": "Preset",
+            "type": "PRESETS"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+  
+    {
+      "intent": "FavoriteIntent",
+      "slots": [
+        {
+            "name": "Preset",
+            "type": "PRESETS"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+    {
+      "intent": "ChangeRoomIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+    
+    {
+      "intent": "ChangeServiceIntent",
+      "slots": [
+        {
+            "name": "Service",
+            "type": "SERVICES"
+        }   
+      ]
+    },
+    
+    {
+      "intent": "ChangeRoomAndServiceIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        },   
+        {
+            "name": "Service",
+            "type": "SERVICES"
+        }   
+      ]
+    },
+    
+    {
+      "intent": "PauseIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+    
+    {
+      "intent": "PauseAllIntent"
+    },
+   
+    {
+      "intent": "ResumeIntent",
+      "slots": [
+         {
+            "name": "Room",
+            "type": "ROOMS"
+         }   
+       ] 
+    },
+    
+    {
+      "intent": "ResumeAllIntent"
+    },
+
+    {
+      "intent": "VolumeDownIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+    
+    {
+      "intent": "VolumeUpIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+    {
+      "intent": "SetVolumeIntent",
+      "slots": [
+        {
+            "name": "Percent",
+            "type": "AMAZON.NUMBER"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+  
+    {
+      "intent": "NextTrackIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+  
+    {
+      "intent": "PreviousTrackIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+    {
+      "intent": "ClearQueueIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+   
+    {
+      "intent": "WhatsPlayingIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+    {
+      "intent": "MuteIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+    {
+      "intent": "UnmuteIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+    {
+      "intent":  "RepeatIntent",
+      "slots": [
+        {
+            "name": "Toggle",
+            "type": "TOGGLES"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+
+    {
+      "intent":  "ShuffleIntent",
+      "slots": [
+        {
+            "name": "Toggle",
+            "type": "TOGGLES"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+
+    {
+      "intent":  "CrossfadeIntent",
+      "slots": [
+        {
+            "name": "Toggle",
+            "type": "TOGGLES"
+        },
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }
+      ]
+    },
+    
+    {
+      "intent": "JoinGroupIntent",
+      "slots": [
+        {
+          "name": "JoiningRoom",
+          "type": "ROOMS"
+        },
+        {
+          "name": "PlayingRoom",
+          "type": "ROOMS"
+        }
+      ]
+    },
+    
+    {
+      "intent" : "UngroupIntent",
+      "slots" : [
+        {
+          "name" : "Room",
+          "type" : "ROOMS"
+        }
+      ]
+    },
+    
+    {
+      "intent" : "PlayInRoomIntent",
+      "slots" : [
+        {
+          "name" : "Room",
+          "type" : "ROOMS"
+        }
+      ]
+    },
+
+    {
+      "intent":  "LineInIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        },
+        {
+            "name": "LineIn",
+            "type": "ROOMS"
+        }
+      ]
+    }
+  ]
+}

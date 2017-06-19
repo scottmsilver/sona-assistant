@@ -1,0 +1,14 @@
+{
+  "name": "{{=it.entity}}",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "{{=it.entity}}",
+      "synonyms": [
+         "{{=it.entity}}"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

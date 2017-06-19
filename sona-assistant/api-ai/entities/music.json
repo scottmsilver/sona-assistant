@@ -1,0 +1,27 @@
+{
+  "id": "0be414a5-e6a4-42d8-9003-037d1bf4b8d6",
+  "name": "music",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "free fallin",
+      "synonyms": [
+        "free fallin"
+      ]
+    },
+    {
+      "value": "girls just wanna have fun",
+      "synonyms": [
+        "girls just wanna have fun"
+      ]
+    },
+    {
+      "value": "nothing compares 2 u",
+      "synonyms": [
+        "nothing compares 2 u"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

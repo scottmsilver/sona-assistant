@@ -1,0 +1,83 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "start sirius XM channel @Channel:Channel in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "start sirius XM channel @Channel:Channel"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "tune to sirius XM channel @Channel:Channel in the @Room:Room"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "tune to sirius XM channel @Channel:Channel"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "SiriusXMChannelIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "SiriusXMChannelIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Channel",
+          "name": "Channel",
+          "value": "$Channel",
+          "isList": false
+        }, 
+        {
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

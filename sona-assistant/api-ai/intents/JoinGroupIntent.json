@@ -1,0 +1,83 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "join @JoiningRoom:JoiningRoom to @PlayingRoom:PlayingRoom"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "join the @JoiningRoom:JoiningRoom to @PlayingRoom:PlayingRoom"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "join @JoiningRoom:JoiningRoom to the @PlayingRoom:PlayingRoom"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "join the @JoiningRoom:JoiningRoom to the @PlayingRoom:PlayingRoom"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "JoinGroupIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "JoinGroupIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@JoiningRoom",
+          "name": "JoiningRoom",
+          "value": "$JoiningRoom",
+          "isList": false
+        }, 
+        {
+          "dataType": "@PlayingRoom",
+          "name": "PlayingRoom",
+          "value": "$PlayingRoom",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

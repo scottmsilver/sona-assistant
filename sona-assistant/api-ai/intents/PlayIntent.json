@@ -1,0 +1,47 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "play @Preset:Preset0"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "PlayIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "PlayIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Preset",
+          "name": "Preset0",
+          "value": "$Preset0",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

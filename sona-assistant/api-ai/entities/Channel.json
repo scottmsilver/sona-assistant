@@ -1,0 +1,14 @@
+{
+  "name": "Channel",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Channel",
+      "synonyms": [
+         "Channel"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

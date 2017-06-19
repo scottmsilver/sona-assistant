@@ -1,0 +1,14 @@
+{
+  "name": "Percent",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Percent",
+      "synonyms": [
+         "Percent"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

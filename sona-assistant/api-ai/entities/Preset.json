@@ -1,0 +1,14 @@
+{
+  "name": "Preset",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Preset",
+      "synonyms": [
+         "Preset"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

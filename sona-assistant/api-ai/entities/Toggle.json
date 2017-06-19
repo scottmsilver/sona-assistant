@@ -1,0 +1,14 @@
+{
+  "name": "Toggle",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Toggle",
+      "synonyms": [
+         "Toggle"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "JoiningRoom",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "JoiningRoom",
+      "synonyms": [
+         "JoiningRoom"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

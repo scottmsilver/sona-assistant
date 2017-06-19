@@ -1,0 +1,14 @@
+{
+  "name": "Service",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Service",
+      "synonyms": [
+         "Service"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

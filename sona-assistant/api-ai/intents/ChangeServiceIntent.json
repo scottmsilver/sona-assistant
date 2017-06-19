@@ -1,0 +1,57 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "change music to @Service:Service"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    },
+
+    {
+      "data": [
+        {
+          "text": "change service to @Service:Service"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "ChangeServiceIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "ChangeServiceIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Service",
+          "name": "Service",
+          "value": "$Service",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6e13d9d6-c653-4e42-81e9-4b70fdd17b42",
+  "name": "fact-category",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "history",
+      "synonyms": [
+        "history",
+        "Google\u0027s history",
+        "past",
+        "Google\u0027s past",
+        "history of Google"
+      ]
+    },
+    {
+      "value": "headquarters",
+      "synonyms": [
+        "headquarters",
+        "HQ",
+        "Google\u0027s headquarters",
+        "Google HQ",
+        "Googleplex"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

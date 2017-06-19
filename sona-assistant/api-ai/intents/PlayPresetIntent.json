@@ -1,0 +1,47 @@
+{
+  "userSays": [
+
+    {
+      "data": [
+        {
+          "text": "play preset @Preset:Preset"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+
+  ],
+  "name": "PlayPresetIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "PlayPresetIntent",
+      "affectedContexts": [],
+      "parameters": [ 
+        {
+          "dataType": "@Preset",
+          "name": "Preset",
+          "value": "$Preset",
+          "isList": false
+        } 
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

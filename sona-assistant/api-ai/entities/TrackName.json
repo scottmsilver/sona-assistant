@@ -1,0 +1,14 @@
+{
+  "name": "TrackName",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "TrackName",
+      "synonyms": [
+         "TrackName"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

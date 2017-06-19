@@ -1,0 +1,47 @@
+{
+  "userSays": [
+{{~it.intent.userSays :userSaysOne:userSaysIndex}}
+    {
+      "data": [
+        {
+          "text": "{{=userSaysOne.text}}"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }{{? userSaysIndex < it.intent.userSays.length - 1 }},{{?}}
+{{~}}
+  ],
+  "name": "{{=it.intent.name}}",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "{{=it.intent.action}}",
+      "affectedContexts": [],
+      "parameters": [ {{~it.intent.parameters :parameter:parameterIndex}}
+        {
+          "dataType": "@{{=parameter}}",
+          "name": "{{=parameter}}",
+          "value": "${{=parameter}}",
+          "isList": false
+        }{{? parameterIndex < it.intent.parameters.length - 1 }},{{?}} {{~}}
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,28 @@
+You have to mark your new intent as top level.
+Action is really what is needed, not just intent name.
+Need aws-sdk -- npm install aws-sdk
+Rename options.js.example to options.js
+
+// To get our parser generator
+npm install -g pegjs
+
+
+// To convert
+
+node convert-utterances.js ../echo-sonos/echo/utterances.txt 
+
+// to start/kill functions
+
+functions start
+functions status
+
+
+Look at play.music.json
+Change an id
+rezip
+reupload
+see if still works
+
+then generate json file from parser
+upload
+

@@ -1,0 +1,14 @@
+{
+  "name": "Name",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Name",
+      "synonyms": [
+         "Name"
+      ]
+    }
+   ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

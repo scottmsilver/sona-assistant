@@ -1,0 +1,39 @@
+{
+  "userSays": [
+    {
+      "id": "80d9e28f-37d5-47e2-b814-2fb037f94c77",
+      "data": [
+        {
+          "text": "take a crap"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5a353b0b-b13e-4420-aee4-bded26723f69",
+  "name": "take a crap",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I took a crap"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "google"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
